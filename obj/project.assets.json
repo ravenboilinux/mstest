@@ -2185,7 +2185,8 @@
       "AutoMapper.Extensions.ExpressionMapping >= 2.0.0",
       "Autofac >= 4.8.1",
       "Microsoft.EntityFrameworkCore.InMemory >= 2.2.1",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 2.2.1"
+      "Microsoft.EntityFrameworkCore.SqlServer >= 2.2.1",
+      "System.ComponentModel.Annotations >= 4.5.0"
     ]
   },
   "packageFolders": {
@@ -2237,6 +2238,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[2.2.1, )"
+          },
+          "System.ComponentModel.Annotations": {
+            "target": "Package",
+            "version": "[4.5.0, )"
           }
         }
       }
